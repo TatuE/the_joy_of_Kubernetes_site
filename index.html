@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Joy of Kubernetes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #326ce5;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            width: 100%;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        img.kubernetes-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            border: 1px solid #ddd;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+            text-align: left;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            margin-top: auto;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Joy of Kubernetes</h1>
+    </header>
+
+    <div class="container">
+        <h2>Welcome to our exiting Kubernetes journey!</h2>
+        
+        <p>
+            This page is a small testament to the adventure of learning and deploying applications
+            on Kubernetes. It's running live from a K3s cluster on Hetzner Cloud!
+        </p>
+
+        <img src="the_joy_of_kubernetes.jpeg" alt="A picture representing the joy of Kubernetes" class="kubernetes-image">
+        
+        <p>
+            Setting up the cluster, configuring networking with Traefik, handling SSL with Let's Encrypt,
+            and deploying applications has been a fantastically painful learning experience. Kubernetes offers incredible
+            power and flexibility for managing containerized applications at scale.
+        </p>
+        <p>
+            Stay tuned for more adventures!
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Tatu Erkinjuntti & Juha-Matti Marjamaa. Powered by K3s and a whole lot of YAML!</p>
+    </footer>
+</body>
+</html>
